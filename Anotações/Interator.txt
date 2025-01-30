@@ -1,0 +1,9 @@
+Iterator - Primeiro ele, depois ele ali e depois aquele lá.
+
+Solução: Encapsular a lógica de navegação entre os elementos desta coleção
+em uma estrutura de iterator.
+
+O objeto que vai ser iterador tem que implementar a interface
+Iterable<> e o outro objeto interator deverar implementar o Iterator.
+
+percorrer de forma encapsulada! 

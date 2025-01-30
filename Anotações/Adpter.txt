@@ -1,0 +1,24 @@
+Adpter: Adptando bem, todo mundo se integra
+
+Por exemplo quando temos uma tomada de 3 pinos
+porém a entrada é de 2 pinos, precisamos de um
+adaptador.
+
+Temos 2 interfaces incompativeis e queremos colocar um 
+adaptador para que elas se conversem.
+
+Problemas:
+
+->Como u ma classe pode ser reusada, mesmo que não tenha a interface
+requisitada pelo cliente?
+->Como classes de interfaces incompatíveis podem trabalhar juntas?
+
+Solução:
+->Definir uma classe adpter que converta a interface de uma classe
+em outra que o cliente necessite.
+
+Adapter de objeto e o Adapter de classe.
+
+Converter a interface de uma classe em ooutra interface esperada pelos clientes
+Adpter permite a comunicação entre classes que não poderiam trabalhar juntas
+devido à incompatibilidade de suas interfaces.

@@ -1,0 +1,18 @@
+State -> Máquina de turing
+
+Problemas:
+->Como posso alterar o comportamento de um objeto quando seu estado
+interno muda?
+->Como posso permitir que novos comportamentos sejam adicionado e integrados
+com os demais?
+
+Solução:
+->Modelar os comportamentos possíveis através de states.
+-> Definir como serão realizadas as mudanças de estados.
+->Cada state irá tomar controle da execução de acordo com o estado interno
+do objeto.
+
+
+"Permitir a um objeto alterar o seu comportamento quando o seu
+estado interno mudar. O objeto irá aparentar mudar de classe
+"

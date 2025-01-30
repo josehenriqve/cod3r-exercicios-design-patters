@@ -1,0 +1,6 @@
+Usar sempre que for criar um mesmo objeto com as mesma especificações,
+ao invés de instanciar novamente, apenas pegue a referencia na memoria
+do objeto e retorne ele!! 
+FlyWeightFactory tem um map que contém um identificador unico, no caso do
+musicPlayer é a descricao e no caso da Tree é o nome da arvore.
+-> Dividir o objeto entre atributos mutaveis e imutaveis.

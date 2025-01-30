@@ -1,0 +1,47 @@
+Proxy -> Eu sou um Proxy para o seu conhecimento. 
+-> Classe intermediaria entre o cliente e o destino.
+
+Problemas:
+->Como posso controlar o acesso a algum objeto?
+-> Como posso adicionar funcionalidade durante o acesso a algum objeto?
+
+Solução:
+->Utilizar uma estrutura de proxy para atuar como se fosse um outro objeto.
+-> Utilizando o proxy como forma de acessar o objeto real. Será possível
+controlar o seu acesso
+
+Prover um substituto ou ponto atraves do qual um objeto possa
+controlar o acesso a outro GOF
+
+
+Types:
+-> Remote proxy
+    encapsular chamadas de rede
+-> Virtual proxy
+   Quando vc vai fazer chamada de um sistema legado e demora muito tempo
+   e vc quer fazer o carregamento eager or lazy.
+-> Protection proxy
+   Trabalha questão de segurança
+->Smart proxy
+   acrescenta funcionalidades, proxy para controlar transações por exemplo.
+
+
+O proxy sempre implementa a mesta interface.
+
+   
+-> O proxy pode implementar o eager.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

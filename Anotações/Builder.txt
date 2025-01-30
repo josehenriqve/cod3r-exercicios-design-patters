@@ -1,0 +1,56 @@
+Problemas:
+
+-> Como uma classe pode criar diferentes representações de um
+mesmo objeto complexo?
+   O que é um objeto complexo?
+     Objeto que tem muitos atributos e metodos.
+
+AO INVES DE CRIAR VARIOS CONSTRUTORE
+
+Solução:
+-> Delegar a criação do objeto para um builder ao invés de instanciar
+o objeto concreto diretamente.
+->Dividir a criação do objeto em partes...
+->Encapsular a criação e montagem dessas partes em um builder
+separado.
+
+Separar a construção  de um objeto complexo de sua
+representação para que o mesmo processo de construção
+possa criar representações diferentes
+                               GOF
+
+Criar vários construtores para diferentes variações não é interessante
+para isso é melhor:
+
+-> 1 Criar um objeto complexo com os gets e sets sem nenhum
+construtor, apenas o padrão.
+
+No SpringBoot a anotação
+@Builder já implementa um builder para um component
+
+Api Fluent é muito utilizado.
+
+
+Na programação Functional.
+
+->Podemos setar os atributos como Final e assim gerar um objeto imutavel.
+
+-> Também é possível colocar a classe Builder dentro da classe modelo
+podendo assim chamar por exemplo:
+    new FastFoodMeal.builder
+
+
+
+
+ User user = new User.Builder(1l).
+                 andAge("17y").
+                 andName("Joselves User").
+                 andTypeUser(TypeUser.ADMIN).
+                 andAddress(new Adress()).
+                 andGender(Gender.MALE).
+                 create();
+
+
+Separado o Builder do User, a classe builder  constroi e quando finalizachama
+
+o metodo .create() retorna um objeto do Tipo User.

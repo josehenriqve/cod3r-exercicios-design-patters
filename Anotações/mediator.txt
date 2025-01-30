@@ -1,0 +1,13 @@
+Mediator -> Apenas um garoto de recados, os objetos n se conhecem
+porém 1 se comunica com o outro.
+
+Problema:
+-> Como posso reduzir acoplamento
+->Como posso deixar a interação entre objetos mais dinâmica?
+
+Definir um objeto que envapsula como um conjunto de objetos
+interagem. Mediator promove acoplamento fraco ao manter objetos
+que não se referem um ao outro explicitamente, permitindo variar
+sua interação independentemente.
+
+Quando tem muitas comicações.

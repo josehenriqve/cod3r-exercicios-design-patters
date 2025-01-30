@@ -1,0 +1,35 @@
+Memento - Checkpoint
+  -Criar pontos de checkpoints
+  - Salvar algo em um determinado local.
+
+Problemas
+->Como um objeto pode capturar seu estado interno para poder
+ser restaurado posteriormente?
+
+Solução:
+Definir uma estrutura de memento onde cada estado poderá ser salvo
+e restaurado quando necessário
+
+"Sem violar o encapsulamento, capturar e externalizar o 
+ estado interno de um objeto para que o objeto possa ter
+esse estado restaurado posteriormente" GOF
+
+Uma lista de historicos eu posso utilizar o padrão memento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+O que é prototype?
+Resumindo um Clone.
+
+-> Uma String internamente ela pega a modificação 
+nova e clona o objeto anterior e retorna objeto anterior+atuailizaçã
+
+Problemas:
+
+Como posso criar um objeto novo, aproveitando o
+estado previamente existente de outro objeto?
+
+Solução
+->Definir um prototype que retorne a copia de si
+mesmo.
+-> No caso do Java tem o .clone()
+
+Especificar os tipos de objetos a serem criados
+usando instância como protóripo e criar novos objetos
+ao copiar este protótipo.
+                     GOF
+
+Diferença
+Shallow copy e Deep Copy.
+
+Shallow copy -> Cria a copia de um objeto porém mantem as subclasses dentro
+referenciando apenas a memória. Se alterar algum atributo ele vai mudar
+na instancia anterior, pois ele não copia.
+
+Solution shallow copy:
+
+implements cloneable
+
+
+Como eu posso evoluir um objeto imutavel e evoluir ele?
+
+public Builder cloneBuilder() {
+		return new Builder(name, age, address);
+	}
+
+
+O Clone Builder cria um novo builder adicionando os valores no
+construtor e permitindo a evolução.
+
+

@@ -1,0 +1,41 @@
+Observer:
+
+Javascript->EventHandler
+Java -< LIstener
+
+-> Como posso modelar um relacionamento 1-n
+sem deixar todos eles acoplados?
+-> Como um objeto pode notificar outros objetos quando necessário?
+
+Solução:
+-> Criar uma estrutura deobserver para que ele possa notificar
+todos os objetos que solicitaram ser avisado quando um determinado
+evento ocorrra
+
+"Definir uma dependência um-para-muitos entre objetos para que 
+quando um obejto mudar de estado, todos os seus dependentes
+sejam notificados e atualizados automatiamente.
+                                     GOF
+
+-> Programação reativa por exemplo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

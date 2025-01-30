@@ -1,0 +1,7 @@
+Problema que resolve o projetos estruturais;
+
+Como seria possível estrutura diversos objetos e classes de forma extensível
+e flexível?
+
+A forma como as classes e objetos são compostas para ter uma estrutura maior.
+

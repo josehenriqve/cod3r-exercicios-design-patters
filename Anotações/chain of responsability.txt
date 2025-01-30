@@ -1,0 +1,42 @@
+Chain of responsability - Ninguém solta a mão de ninguém.
+  -> Colocar as funcionalidades em cadeia
+
+Problemas:
+->Como posso evitar o acoplamento entre o rementente de uma solicitação
+e seu receptor?
+-> Como permitir que mais que um objeto possa atender alguma requisição?
+   Administrador pode ver informações a mais, porém cliente ve limitado
+
+Solução:
+-> Definir uma cadeia de objetos onde cada um poderá responder
+aquela solicitação ou enviar para o
+proximo objeto tratá-la.
+-> Quem faz a solicitação não precisa sabe o tamanho da cadeia
+ou mesmo como (por quem_ ela será resolvida)
+
+"Evitar acoplar o remente de uma requisição ao seu destinatário
+ao dar a mais de um objeto a chance de servir a requisição.
+Compõe os objetos em cascata e possa a requisição pela corrente
+até que um objeto a sirva.  GOF"
+
+Como se fosse uma lista encadeada.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
